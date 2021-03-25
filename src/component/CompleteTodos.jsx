@@ -3,8 +3,8 @@ import React from "react";
 export const CompleteTodos = (props) => {
   const { todos, onClickBack } = props;
   return (
-    <div className="incomplete-area">
-      <p className="title">未完了のTODO</p>
+    <div className="complete-area">
+      <p className="title">完了のTODO</p>
       <ul>
         {todos.map((todo, index) => {
           return (
